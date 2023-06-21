@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-size: 1.6rem;
+  background: linear-gradient(102.32deg, #030422 -2.74%, #090114 101.6%);
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.card-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34.8rem;
+  height: 48.64rem;
+  background-image: url(assets/images/image1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 11.3rem 4.5rem rgba(0, 0, 0, 0.02), 0 6.4rem 3.8rem rgba(0, 0, 0, 0.08), 0 2.8rem 2.8rem rgba(0, 0, 0, 0.13), 0 0.7rem 1.6rem rgba(0, 0, 0, 0.15), 0 0 0 rgba(0, 0, 0, 0.15);
+  border-radius: 1.6rem;
+}
+
+.card-1 .banner-card,
+.card-3 .banner-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34.8rem;
+  height: 48.64rem;
+  background: linear-gradient(90.24deg, rgba(14, 23, 101, 0.45) 0%, rgba(53, 14, 88, 0.45) 98.1%), #121214;
+  border-radius: 1.6rem;
+  opacity: 0.9;
+}
+
+.card-1 .banner-card span,
+.card-3 .banner-card span {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  letter-spacing: 0.08em;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #312D74;
+  color: transparent;
+}
+
+.card-2 {
+  width: 43.6rem;
+  height: 60.8rem;
+  background: #121214;
+  background-image: url(assets/images/image2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 29.4rem 11.8rem rgba(0, 0, 0, 0.03), 0 16.5rem 9.9rem rgba(0, 0, 0, 0.1), 0 7.3rem 7.3rem rgba(0, 0, 0, 0.17), 0 1.8rem 4rem rgba(0, 0, 0, 0.2), 0 0 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2rem;
+}
+
+.card-2 .banner-card {
+  position: relative;
+  display: flex;
+  width: 43.6rem;
+  height: 60.8rem;
+  background: linear-gradient(90.24deg, rgba(14, 23, 101, 0.45) 0%, rgba(53, 14, 88, 0.45) 98.1%), #121214;
+  border-radius: 1.6rem;
+  opacity: 0.9;
+}
+
+.card-2 .banner-card img {
+  position: absolute;
+  top: 5rem;
+  left: 10.8rem;
+}
+
+.card-2 .banner-card .position {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-2 .banner-card .position .title {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-top: 4.8rem;
+  margin-left: 4rem;
+}
+
+.card-2 .banner-card .position .title h3 {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #ECE4EF;
+  text-shadow: 0 0 0.8rem rgba(255, 255, 255, 0.4);
+}
+
+.card-2 .banner-card .position .title p {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #D8CEDE;
+}
+
+.card-2 .banner-card .position .info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-top: 6rem;
+  margin-left: 4rem;
+}
+
+.card-2 .banner-card .position .info .detail span {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #9C83A7;
+}
+
+.card-2 .banner-card .position .info .detail p {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 130%;
+  color: #D8CEDE;
+}
+
+.card-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34.8rem;
+  height: 48.64rem;
+  background: #121214;
+  background-image: url(assets/images/image3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 11.3rem 4.5rem rgba(0, 0, 0, 0.02), 0 6.4rem 3.8rem rgba(0, 0, 0, 0.08), 0 2.8rem 2.8rem rgba(0, 0, 0, 0.13), 0 0.7rem 1.6rem rgba(0, 0, 0, 0.15), 0 0 0 rgba(0, 0, 0, 0.15);
+  border-radius: 1.6rem;
+}
